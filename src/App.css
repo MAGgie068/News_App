@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-size: 20px;
+  box-sizing: border-box;
+  background-color: pink;
+}
+
+header {
+  border: solid 2px orchid;
+  background-color: orchid;
+  box-shadow: 0 1px 2px gray;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding: 10px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.page {
+  margin: 10px 5px 10px 10px;
+}
+
+img {
+  height: 200px;
+}
+
+.inBlock {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.authndate {
+  font-weight: bold;
+  color: grey;
+  margin-left: 20px;
+}
+
+.heading {
+  font-style: cursive;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  border-bottom: solid 2px orchid;
+  background-color: orchid;
+  box-shadow: 0 1px 2px gray;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  float: right;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: palevioletred;
+}
+
+button:hover {
+  background-color: aqua;
+}
